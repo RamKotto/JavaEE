@@ -1,8 +1,6 @@
 package com.saraevdv.app;
 
 import com.saraevdv.dto.Product;
-
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -32,5 +30,4 @@ public class ProductListServlet extends HttpServlet {
         printWriter.println("</body></html>");
         printWriter.close();
     }
-
 }
